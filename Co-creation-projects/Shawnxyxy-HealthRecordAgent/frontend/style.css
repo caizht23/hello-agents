@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.score-container {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.score-label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.score-bar-bg {
+    width: 100%;
+    height: 24px;
+    background-color: #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.score-bar {
+    height: 100%;
+    width: 0%;
+    background-color: green;
+    transition: width 0.8s ease;
+    border-radius: 12px;
+}
+
+.score-text {
+    margin-top: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
